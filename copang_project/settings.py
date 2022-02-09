@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'copang_app',
+    'rest_framework',
 ]
 
 APPEND_SLASH = False
