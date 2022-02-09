@@ -6,4 +6,4 @@ from .models import Users
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model= Users
-        fields = '__all__'
+        fields = ('id', 'name','email', 'phone', 'is_admin', 'image_url', 'created_at') # 우리가 원하는 항목만 내려주기
